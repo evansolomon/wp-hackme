@@ -1,11 +1,10 @@
 <?php
 
 // Database
-define( 'WP_LOCAL_DEV', false );
 define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'wordpress' );
 define( 'DB_PASSWORD', 'w0rdpress' );
-define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
+define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
