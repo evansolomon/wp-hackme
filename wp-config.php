@@ -23,6 +23,9 @@ define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
 $table_prefix  = 'wp_';
 
+// Batcache
+define( 'WP_CACHE', true );
+
 /**
  * WordPress Localized Language, defaults to English.
  *
