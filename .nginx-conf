@@ -12,7 +12,7 @@ server {
     }
 
     # Block PHP in server-writable directories
-    location ~ ^/content/(uploads|blogs\.dir)/(.+)\.php$ {
+    location ~* /(?:uploads|files)/.*\.php$ {
         # http://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol
         return 418;
     }
